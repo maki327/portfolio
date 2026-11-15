@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO | Webデザイン・コーディング・WordPress構築</title>
+  <meta name="description" content="Figmaデザインの正確な再現からWordPressサイト構築まで、丁寧なコーディングでWebサイトを形にします。">
+  <!-- Google Fonts (Montserrat & Noto Sans JP) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- CSS読み込み -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="header-inner">
+      <h1 class="header-logo">
+        <a href="#">PORTFOLIO</a>
+      </h1>
+      <nav class="header-nav" id="js-nav">
+        <ul class="header-nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- スマホ用ハンバーガーボタン -->
+      <button class="hamburger" id="js-hamburger" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- メインビジュアル -->
+    <section class="fv">
+      <div class="fv-inner">
+        <h2 class="fv-title">Figmaデザインの正確な再現から<br class="sp-only">WordPressサイト構築まで</h2>
+        <p class="fv-subtitle">VS Codeによる丁寧なコーディングでWebサイトを形にします</p>
+      </div>
+    </section>
+
+    <!-- ABOUT & SKILLS -->
+    <section class="about-skills" id="about">
+      <div class="container">
+        <h2 class="section-title">ABOUT &amp; SKILLS</h2>
+        <div class="about-skills-grid">
+          <!-- About Me カード -->
+          <div class="info-card">
+            <h3 class="info-card-title">About Me</h3>
+            <p class="info-card-text">
+              Webエンジニアとして、Figmaデザインの正確な読み解きやWordPressサイト構築を行なっています。VS Codeを用いた丁寧で構造化されたコーディングを心がけています。
+            </p>
+            <p class="info-card-note">
+              稼働目安：週15〜20時間（平日夜・土日祝稼働）<br>
+              ※メッセージは24時間以内にご返信いたします。
+            </p>
+          </div>
+
+          <!-- Skills カード -->
+          <div class="info-card" id="skills">
+            <h3 class="info-card-title">Skills</h3>
+            <ul class="skills-list">
+              <li>Figma（デザインデータ管理・抽出）</li>
+              <li>HTML5 / CSS3（レスポンシブ対応）</li>
+              <li>WordPress（テーマ構築・サイト管理）</li>
+              <li>VS Code（エディタ活用）</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKS -->
+    <section class="works" id="works">
+      <div class="container">
+        <h2 class="section-title">WORKS</h2>
+        <div class="works-grid">
+          <!-- 実績1：大学HP -->
+          <article class="work-item">
+            <div class="work-thumb">
+              <img src="img/work-university.png" alt="大学HPのスクリーンショット">
+            </div>
+            <h3 class="work-title">大学HP</h3>
+            <dl class="work-meta">
+              <div class="work-meta-row">
+                <dt>担当：</dt>
+                <dd>コーディング / WordPress化</dd>
+              </div>
+              <div class="work-meta-row">
+                <dt>技術：</dt>
+                <dd>HTML / CSS / JavaScript / WordPress</dd>
+              </div>
+              <div class="work-meta-row">
+                <dt>閲覧用：</dt>
+                <dd>ID demo / PW portfolio</dd>
+              </div>
+            </dl>
+          </article>
+
+          <!-- 実績2：歯科医院HP -->
+          <article class="work-item">
+            <div class="work-thumb">
+              <img src="img/work-dental.png" alt="歯科医院HPのスクリーンショット">
+            </div>
+            <h3 class="work-title">歯科医院HP</h3>
+            <dl class="work-meta">
+              <div class="work-meta-row">
+                <dt>担当：</dt>
+                <dd>コーディング / WordPress化</dd>
+              </div>
+              <div class="work-meta-row">
+                <dt>技術：</dt>
+                <dd>HTML / CSS / JavaScript / WordPress</dd>
+              </div>
+              <div class="work-meta-row">
+                <dt>閲覧用：</dt>
+                <dd>ID demo / PW portfolio</dd>
+              </div>
+            </dl>
+          </article>
+
+          <!-- 実績3：美容室HP -->
+          <article class="work-item">
+            <div class="work-thumb">
+              <img src="img/work-salon.png" alt="美容室HPのスクリーンショット">
+            </div>
+            <h3 class="work-title">美容室HP</h3>
+            <dl class="work-meta">
+              <div class="work-meta-row">
+                <dt>担当：</dt>
+                <dd>コーディング / WordPress化</dd>
+              </div>
+              <div class="work-meta-row">
+                <dt>技術：</dt>
+                <dd>HTML / CSS / JavaScript / WordPress</dd>
+              </div>
+              <div class="work-meta-row">
+                <dt>閲覧用：</dt>
+                <dd>ID demo / PW portfolio</dd>
+              </div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">CONTACT</h2>
+        <div class="contact-card">
+          <p class="contact-lead">お仕事のご依頼やご相談はお気軽にお問い合わせください。</p>
+          <form class="contact-form" action="https://formspree.io/f/xgakawnp" method="post">
+            <div class="form-group">
+              <label for="name">お名前</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">メールアドレス</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">お問い合わせ内容</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-submit">
+              <button type="submit" class="btn-submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <p class="footer-copy">&copy; 2026 PORTFOLIO</p>
+  </footer>
+
+  <!-- ハンバーガーメニュー用JS -->
+  <script>
+    const hamburger = document.getElementById('js-hamburger');
+    const nav = document.getElementById('js-nav');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('is-active');
+      nav.classList.toggle('is-open');
+    });
+    document.querySelectorAll('.header-nav-list a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('is-active');
+        nav.classList.remove('is-open');
+      });
+    });
+  </script>
+</body>
+</html>
